@@ -5,13 +5,13 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon Social Solution Services</title>
-    <!-- Website title, connected stylesheet, and character set -->
+    <!-- Website title, connected stylesheet and character set -->
 </head>
 
 <body>
     <header>
         <h1>Hori<span Id="seo">seo</span>n</h1>
-        <!-- Horiseon logo has the middle 'seo' slightly grey, so an Id is used to change the color of the seo -->
+        <!-- Horiseon logo has the middle 'seo' slightly grey, so an Id is used to change the color of the 'seo' -->
         <div>
             <ul>
                 <li>
@@ -25,31 +25,32 @@
                 </li>
             </ul>
         </div>
-        <!-- Search Bar. The div is a header divs that contains the list elements. Must be kept to retain the layout of the search bar. -->
-        <!-- Each link directs to a blank id that is listed in the content section below. The ids do not have any stylization and only function for redirecting the user onclick. They do not appear on the CSS sheet. -->
     </header>
+    <!-- Search Bar. The div is a header div that contains the ul and li elements. Must be kept to retain the layout of the search bar. -->
+    <!-- Each link directs to a blank id that is listed in the content section below. The ids do not have any stylization and only function for redirecting the user onclick. They do not appear on the CSS sheet -->
 
     <div class="hero" alt="Several Horiseon employees in a meeting planning a project"></div>
     <!-- Hero class sets a background image that fits behind the search bar without stretching -->
     <!-- If an img tag is used in replacement for the div + class, then the image will stretch and squish in an unintended manner -->
+    <!-- BUG! Alt text does not properly appear -->
 
     <div class="content">
         <div id="search-engine-optimization" class="content-section">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine" />
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="An image of a notebook with work supplies listing services to improve search engine optimization" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
         <div id="online-reputation-management" class="content-section">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A person sits at a desk working on a laptop that displays a graph showing an improvement in company reputation over time" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
         <div id="social-media-marketing" class="content-section">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Several individuals sit at a work table discussing ways to improve social media engagement" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
@@ -90,6 +91,7 @@
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
     </div>
+    <!-- Footer with Horiseon company information -->
 </body>
 
 </html>
