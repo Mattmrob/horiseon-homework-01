@@ -25,12 +25,13 @@
                 </li>
             </ul>
         </div>
-        <!-- Search Bar! The two divs are header divs that contain the list elements and must be kept to retain the layout of the search bar. -->
-        <!-- Each link directs to a blank id that is listed in the content section below. The ids do not have any stylization and only function for redirecting the user onclick. -->
+        <!-- Search Bar. The div is a header divs that contains the list elements. Must be kept to retain the layout of the search bar. -->
+        <!-- Each link directs to a blank id that is listed in the content section below. The ids do not have any stylization and only function for redirecting the user onclick. They do not appear on the CSS sheet. -->
     </header>
 
     <div class="hero" alt="Several Horiseon employees in a meeting planning a project"></div>
     <!-- Hero class sets a background image that fits behind the search bar without stretching -->
+    <!-- If an img tag is used in replacement for the div + class, then the image will stretch and squish in an unintended manner -->
 
     <div class="content">
         <div id="search-engine-optimization" class="content-section">
@@ -55,6 +56,8 @@
             </p>
         </div>
     </div>
+    <!-- The Content section is contained by the 'content' class, and each subsection is contained by the 'content-section' class. -->
+    <!-- The attached ids are for functionality with the search bar on click function (anchor tag) -->
 
     <div class="benefits">
         <div class="benefit-section">
