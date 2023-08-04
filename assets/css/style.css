@@ -1,4 +1,4 @@
-/* Universal */
+/* ----- Universal ----- */
 
 * {
     box-sizing: border-box;
@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-/* Elements */
+/* ----- Elements ----- */
 
 body {
     background-color: #d9dcd6;
@@ -52,7 +52,7 @@ p {
     font-size: 16px;
 }
 
-/* Classes */
+/* ----- Classes ----- */
 
 .hero {
     height: 800px;
@@ -62,6 +62,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* CONTENT */
 
 .content {
     width: 75%;
@@ -97,6 +99,8 @@ p {
     margin-left: 25px;
 }
 
+/* BENEFITS */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,6 +123,8 @@ p {
     max-width: 150px;
 }
 
+/* FOOTER */
+
 .footer {
     padding: 30px;
     clear: both;
@@ -130,7 +136,7 @@ p {
     font-size: 20px;
 }
 
-/* Ids */
+/* ----- Ids ----- */
 
 #seo {
     color: #d9dcd6;
