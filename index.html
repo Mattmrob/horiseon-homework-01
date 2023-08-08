@@ -29,9 +29,11 @@
     <!-- Search Bar. The div is a header div that contains the ul and li elements. Must be kept to retain the layout of the search bar. -->
     <!-- Each link directs to a blank id that is listed in the content section below. The ids do not have any stylization and only function for redirecting the user onclick. They do not appear on the CSS sheet -->
 
-    <div class="hero" alt="Several Horiseon employees in a meeting planning a project"></div>
-    <!-- Hero class sets a background image that fits behind the search bar without stretching -->
-    <!-- If an img tag is used in replacement for the div + class, then the image will stretch and squish in an unintended manner -->
+    <div class="hero" title="Several Horiseon employees in a meeting planning your project"></div>
+    <!-- 'hero' is a class with an assigned background image that scales properly and fits behind the header -->
+    <!-- If an img tag is used in replacement for the css background-image property, then the image will stretch and squish in an unintended manner depending on screen size -->
+    <!-- For accessibility, because an alt tag cannot be applied to a background-image, a descriptive title is used instead and appears when mousing over the div -->
+    <!-- Accessibility solution found from stackoverflow user Randy Greencorn at https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute -->
 
     <div class="content">
         <div id="search-engine-optimization" class="content-section">
