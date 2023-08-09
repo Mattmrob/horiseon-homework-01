@@ -15,6 +15,7 @@ The page can be downloaded and viewed by interacting with the index.html file. T
 ## Credits
 
 UC Berkeley Full Stack Bootcamp - for provided Horiseon code base
+Randy Greencorn for accessibilty solution used in code on line 32 of index.html - found at https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute
 
 ## License
 
